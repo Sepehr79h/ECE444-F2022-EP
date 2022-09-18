@@ -61,6 +61,9 @@ export default class NavbarComp extends Component {
                 <Nav.Link as={Link} to="/about">
                   About Us
                 </Nav.Link>
+                <Nav.Link as={Link} to="/name">
+                  ECE444-Lab1
+                </Nav.Link>
 
                 {/* <Nav.Link href="/search" style={{ color: "white", display: "inline" }}>
                   Search
@@ -74,6 +77,9 @@ export default class NavbarComp extends Component {
         </div>
         <div>
           <Switch>
+          <Route path="/name">
+            <p> Sepehr </p>
+          </Route>
           <Route path="/about">
             <div className = "body_text">
             <p>
